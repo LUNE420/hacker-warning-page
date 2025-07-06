@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Warnung</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00FF00;
+            font-family: "Courier New", Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .message {
+            font-size: 2em;
+            text-align: center;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.2; }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Das hätte auch schief gehen können
+    </div>
+</body>
+</html>
